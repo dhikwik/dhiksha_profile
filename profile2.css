@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+#pic{
+    margin-left:63%;
+    margin-top:-12%;
+    height:10%;
+    width:31%;
+
+}
+#text{
+    margin-left:10%;
+    margin-top:10%;
+    font-size: 30px;
+
+}
+
+
+#info{
+    width:50%;
+    margin-left:10%;
+    margin-top:15%;
+
+}
+
+#pic2{
+    margin-left:10%;
+    margin-top:10%;
+    height:10%;
+    width:31%;
+
+}
+
+#para{
+    width:50%;
+    margin-left:48%;
+    margin-top:-12%;
+
+}
+
+#clg{
+    margin-left:63%;
+    margin-top:-10%;
+    height:10%;
+    width:31%;
+
+}
+
+#para1{
+    width:50%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+#education{
+ margin-top:10%;
+}
+
+.subcontainer{
+    height: 250px;
+    width: 30%;
+    float:left;
+    margin-left:20%;
+    margin-top:5%;
+    box-shadow :10px 20px 10px gray;
+
+   /*animation: dance 10s infinite;*/
+
+}
+
+
+.subcontainer1{
+    height: 250px;
+    width: 30%;
+    float:left;
+    margin-left:54%;
+    margin-top:-16%;
+    box-shadow :10px 20px 10px gray;
+    
+   /*animation: dance 10s infinite;*/
+
+}
+
+#oyo{
+    margin-top: 3%;
+    height: 90%;
+    width:100%;
+}
+
+#zo{
+    margin-top: 3%;
+    height: 90%;
+    width:100%;
+}
+
+.footer{
+    background-color: black;
+    margin-top:34%;
+    color: white;
+    height:60px;
+    display:justify;
+
+}
