@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+ 
+/* navbar  */
+.navbar-inverse{
+    height: 75px;
+}
+.container-fluid{
+    margin-top:1%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.heading-logo{
+    height: 50px;
+    width: 62px;
+}
+
+/* body section */
+h1{
+    font-weight:bold;
+}
+.main-content{
+    margin-top:5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-wording{
+    font-size: larger;
+}
+
+.main-content .main-wording button a {
+    color: white;
+    text-decoration: none;  
+}
+ 
+/* /about me / */
+.about-me-section{
+    margin-top: 10%;
+}
+.about-me-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:4%;
+ }
+.about-me-heading{
+    margin-left:45%;
+}
+
+ 
+.education-heading{
+    margin-left:45%; 
+}
+.education-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7% ;
+}
+.notebook-images{
+    height:370px;
+}
+.project-heading{
+    margin-left:45%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+.card-content{
+    flex: 0 0 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.card-content img {
+    height:200px;
+ }
+.card-content .text {
+    padding: 0 20px 20px;
+}
+.card-content .text > button {
+    background: rgb(67, 107, 238);
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* box-shadow :10px 20px 10px gray; */
+
+.footer{
+    background-color: black;
+    color: white;
+    height:60px;
+    display:justify;
+
+}
