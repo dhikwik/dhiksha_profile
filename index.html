@@ -11,9 +11,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
     <link href="index.css" rel="stylesheet" type="text/css">
     
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script>
+        const end = Date.now() + 15 * 300;
+
+        const colors = ["#bb0000", "#ffffff"];
+
+        function frame() {
+        confetti({
+            particleCount: 2,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+            colors: colors,
+        });
+
+        confetti({
+            particleCount: 2,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+            colors: colors,
+        });
+
+        if (Date.now() < end) {
+            requestAnimationFrame(frame);
+        }
+        };
+    </script>
     </head>
 <body>
 
@@ -29,6 +59,7 @@
             
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://www.linkedin.com/in/dhiksha-s-065895212"> Contact me</a></li>
+                <li><a href="https://drive.google.com/file/d/1kWXz7dadxh8GLYyyKd1yQdkjdLYoeYE1/view?usp=drivesdk" target="_blank" title="My CV">View CV</a></li>
                 
             </ul>
             </div>
@@ -43,7 +74,7 @@
             </h1>
             <h4 class="main-intro-sub"> Web Developer</h4>
             <h4> Motivated, Ambituous and Joyful</h4>
-            <button class="btn btn-primary btn-lg"><a href="https://drive.google.com/file/d/1kWXz7dadxh8GLYyyKd1yQdkjdLYoeYE1/view?usp=drivesdk" target="_blank" title="My CV">Click to view CV</a></button>
+            <button class="fire-btn btn btn-primary btn-lg" onclick="frame()">Welcome Button</button>
         </div>
 
         <img src="imagess/work_women1.jpeg"  class="cartoon-vector" alt="my vector">
