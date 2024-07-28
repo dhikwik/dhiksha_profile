@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap"); */
 
  
 /* navbar  */
@@ -63,6 +63,9 @@ h1{
     align-items: center;
     padding: 7% ;
 }
+.text-descript{
+    line-height: 1.8;
+}
 .notebook-images{
     height:370px;
 }
@@ -103,4 +106,8 @@ h1{
     height:60px;
     display:justify;
 
+}
+.card-content a{
+    color: white;
+    text-decoration: none;
 }
